@@ -1,0 +1,47 @@
+.cards-container {
+  margin: 20px;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.card {
+  height: 800px;
+}
+
+/* .cards-container:hover {
+  transform: scale(1.1);
+} */
+
+.main-card {
+  width: 60%;
+}
+
+.card-body {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  overflow: hidden;
+  height: 200px;
+}
+
+img {
+  height: 150px;
+  object-fit: cover;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+.date {
+  font-size: 10px;
+}
+
+.card-text {
+  height: 50px;
+  line-height: 18px;
+}
